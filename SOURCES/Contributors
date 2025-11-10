@@ -1,0 +1,69 @@
+# -*- coding: utf-8 -*-
+
+We want to thank you for installing Rocky Linux 9.
+
+Rocky Linux would not be possible without the hard work and dedication of the
+community volunteers. Building a distribution and maintaining it is not an easy
+task. It is you, the user, that keeps our entire project motivated to continue
+working on this distribution.
+
+Thank you for all of your continued support and thank you to all of those who
+came together to help test and support this release. We really hope you enjoy
+this release of Rocky Linux.
+
+# Special Recognition #
+  Mustafa Gezen
+  Skip Grube
+  Sherif Nagy
+  Pablo Greco
+  Louis Abel
+  Neil Hanlon
+  Taylor Goodwill
+  Natalie Forde
+  Alejandro Ramallo
+  Wale Soyinka
+  Ezequiel Bruni
+  Trevor Cooper
+  Chris Stackpole
+  Steven Spencer
+  Alan Marshall (@alangm)
+  Lukas Magauer
+  Al Bowles (@raktajino)
+  Peter Ajamian (@pj)
+  Scott Shinn
+
+# Rocky Linux Teams and Operations #
+
+Infrastructure and Operations:
+  Taylor Goodwill
+  Neil Hanlon
+  Louis Abel
+  Mustafa Gezen
+
+Release Engineering/Core:
+  Louis Abel
+  Mustafa Gezen
+  Skip Grube
+  Sherif Nagy
+  Pablo Greco
+  Neil Hanlon
+  Taylor Goodwill
+
+Security:
+  Rob Felsburg
+  Scott Shinn
+
+Documentation:
+  Wale Soyinka
+  Steven Spencer
+
+Web/Design:
+  Gabriel Graves
+  Michael Kinder
+
+Testing:
+  Chris Stackpole
+  Trevor Cooper
+  Lukas Magauer
+  Alan Marshall (@alangm)
+  Al Bowles (@raktajino)
