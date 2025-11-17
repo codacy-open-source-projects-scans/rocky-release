@@ -78,6 +78,11 @@ enable virtlogd-admin.socket
 enable virtlockd.socket
 enable virtlockd-admin.socket
 
+# Intel SGX/TDX
+# https://issues.redhat.com/browse/RHEL-97436
+enable mpa_registration.service
+enable qgs.servic
+
 # Storage
 enable multipathd.service
 enable libstoragemgmt.service
@@ -90,6 +95,9 @@ enable dmraid-activation.service
 # https://bugzilla.redhat.com/show_bug.cgi?id=855372
 enable mdmonitor.service
 enable mdmonitor-takeover.service
+
+# https://bugzilla.redhat.com/show_bug.cgi?id=1817491
+enable raid-check.timer
 
 # https://bugzilla.redhat.com/show_bug.cgi?id=876237
 enable spice-vdagentd.service

@@ -20,8 +20,8 @@
 %define distro       %{distro_name}
 %define distro_code  Blue Onyx
 %define major        9
-%define minor        6
-%define rocky_rel    1%{?rllh:.%{rllh}}%{!?rllh:.2}
+%define minor        7
+%define rocky_rel    1%{?rllh:.%{rllh}}%{!?rllh:.3}
 %define rpm_license  BSD-3-Clause
 %define dist         .el%{major}
 %define home_url     https://rockylinux.org/
@@ -105,6 +105,8 @@ Provides:       rocky-release(upstream) = %{full_release_version}
 Provides:       redhat-release = %{version}-%{release}
 Provides:       system-release = %{version}-%{release}
 Provides:       system-release(releasever) = %{major}
+Provides:       system-release(releasever_major) = %{major}
+Provides:       system-release(releasever_minor) = %{minor}
 Provides:       centos-release = %{version}-%{release}
 Provides:       centos-release(upstream) = %{full_release_version}
 
@@ -509,8 +511,17 @@ install -m 0644 %{SOURCE404} %{buildroot}/%{_prefix}/lib/sysctl.d/50-redhat.conf
 %{_datadir}/pki/sb-certs/*
 
 %changelog
-* Fri Apr 11 2025 Louis Abel <label@rockylinux.org> - 9.6-1.2
+* Fri Jul 18 2025 Louis Abel <label@resf.org> - 9.7-1.3
+- Add releasever_major and minor
+
+* Tue Jun 17 2025 Louis Abel <label@resf.org> - 9.7-1.2
+- Enable mpa_registration.service
+- Enable qgs.service
+
+* Fri Apr 11 2025 Louis Abel <label@rockylinux.org> - 9.7-1.1
 - Update SB certs
+- Enable raid-check.timer
+- Update IMA certificates
 
 * Mon Feb 10 2025 Louis Abel <label@rockylinux.org> - 9.6-1.1
 - Fix /etc/issue

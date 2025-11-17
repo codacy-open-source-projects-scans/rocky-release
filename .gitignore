@@ -7,3 +7,4 @@ SOURCES/*.bz2
 SOURCES/*.rpm
 SOURCES/*.orig
 SOURCES/*.sign
+SOURCES/motd.md
